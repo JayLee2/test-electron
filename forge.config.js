@@ -49,8 +49,8 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'me',
-          name: 'awesome-thing'
+          owner: 'JayLee2',
+          name: 'https://github.sheincorp.cn/JayLee2/test-electron.git'
         },
         prerelease: true
       }
