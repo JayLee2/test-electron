@@ -73,7 +73,8 @@
     "@electron-forge/plugin-webpack": "^7.4.0",
     "@electron/fuses": "^1.8.0",
     "electron": "^31.1.0",
-    "electron-builder": "^24.13.3"
+    "electron-builder": "^24.13.3",
+    "react-scripts": "5.0.1"
   },
   "config": {
     "forge": "./forge.config.js"
