@@ -36,7 +36,7 @@
       ]
     },
     "extraMetadata": {
-      "main": "main.js"
+      "main": "./main.js"
     }
   },
   "eslintConfig": {
