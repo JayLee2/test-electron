@@ -34,7 +34,11 @@
       "target": [
         "nsis"
       ]
-    }
+    },
+    "extraMetadata": {
+      "main": "./main.js"
+    },
+    "extends":null
   },
   "eslintConfig": {
     "extends": [
