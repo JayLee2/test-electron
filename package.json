@@ -35,7 +35,7 @@
       ]
     },
     "extraMetadata": {
-      "main": "./main.js"
+      "main": "main.js"
     },
     "extends":null
   },
