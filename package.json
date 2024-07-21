@@ -27,8 +27,7 @@
       "output": "dist"
     },
     "files": [
-      "dist/**/*",
-      "package.json"
+      "**/*"
     ],
     "win": {
       "target": [

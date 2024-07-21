@@ -15,7 +15,7 @@ function createWindow () {
   })
 
   // 并且为你的应用加载index.html
-  console.log('__dirname',`file://${__dirname}/build/index.html`)
+  // console.log('__dirname',`file://${__dirname}/build/index.html`)
   // win.loadURL(`file://${__dirname}/build/index.html`);
   win.loadURL(`https://www.baidu.com`);
 }
