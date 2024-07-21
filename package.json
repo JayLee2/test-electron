@@ -1,6 +1,6 @@
 {
   "name": "electron-app",
-  "homepage": ".",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "main": "main.js",
@@ -13,20 +13,11 @@
     "puppeteer": "^22.12.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "electron-forge start",
-    "build": "electron-builder --win",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "electron-start": "electron .",
-    "package": "electron-forge package",
-    "make": "npm run build && electron-forge make --platform win32",
-    "build:win": "npm run build && electron-builder --win --config",
-    "build:mac": "npm run build && electron-builder --mac --config",
-    "build:linux": "npm run build && electron-builder --linux --config"
+    "build": "electron-builder --win"
   },
   "build": {
     "appId": "com.example.my-electron-app",
@@ -36,12 +27,16 @@
       "output": "dist"
     },
     "files": [
-      "**/*"
+      "dist/**/*",
+      "package.json"
     ],
     "win": {
       "target": [
         "nsis"
       ]
+    },
+    "extraMetadata": {
+      "main": "main.js"
     }
   },
   "eslintConfig": {
